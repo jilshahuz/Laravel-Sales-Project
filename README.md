@@ -6,7 +6,7 @@ An injection servise to sales table from lead table and relations table accordin
 
 ## API Reference
 
-#### Get all items in sales table
+#### To show all items in sales table
 
 ```http
   /sales/
@@ -15,12 +15,12 @@ An injection servise to sales table from lead table and relations table accordin
 #### Add sales entry with lead id
 
 ```http
-  /sales/Lead_id='id'
+  /sales?table='lead'&id='id'
 ```
 #### Add sales entry with relation id
 
 ```http
-  /sales/Relation_id='id'
+  /sales?table='Relation'&id='id'
 ```  
 
 
